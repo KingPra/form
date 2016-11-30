@@ -9,12 +9,27 @@ body {
 }
 
 label {
+    margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
     font-family: Futura;
-    font-size: .9em;
+    font-size: .7em;
     text-align: left;
     color:#AFAFAF;
     display: inline;
+}
+
+input {
+    font-size: .8em;
+    color: #d3d3d3;
+    font-family: Futura;
+    border: none;
+}
+
+select {
+    font-size: .8em;
+    color: #d3d3d3;
+    font-family: Futura;
 }
 
 .top {
