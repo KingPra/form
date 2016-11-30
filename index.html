@@ -6,25 +6,32 @@
 </head>
 <body>
         <section id="container">
-            <ul class="box">
-                <li class="half">box one</li>
-                <li class="half">box two</li>
+            <ul class="white top box">
+                <li class="half"><label>NAME</label><input name="name" type="text" value="Type your full name"/></li>
+                <li class="half"><label>COMPANY</label><input name="company" type="text" value="Where do you currently work?"</li>
             </ul>
-            <ul class="box">
-                <li class="thirds">box one</li>
-                <li class="thirds">box two</li>
-                <li class="thirds">box three</li>
+            <ul class="white next box">
+                <li class="thirds"><label>PHONE NUMBER</label><input name="phone" type="numeric" value="What is the best # to reach you?"/></li>
+                <li class="thirds"><label>EMAIL</label><input name="email" type="email" value="What is your e-mail address?"/></li>
+                <li class="thirds"><label>AVAILABILITY</label>
+                    <select>
+                        <option>5hrs-15hrs per week</option>
+                        <option>15hrs-30hrs per week</option>
+                        <option>30hrs-40hrs per week</option>
+                        <option>40hrs-50hrs per week</option>
+                        <option>I really really like overtime</option>
+                        <option>I have no life</option>
+                    </select>
+                    </li>
             </ul>
-            <ul class="box">
-                <li class="fourths">box on</li>
-                <li class="fourths">box two</li>
-                <li class="fourths">box three</li>
-                <li class="fourths">box four</li>
+            <ul class="white next box">
+                <li class="fourths"><p>box on</p></li>
+                <li class="fourths"><p>box two</p></li>
+                <li class="fourths"><p>box three</p></li>
+                <li class="fourths"><p>box four</p></li>
             </ul>
-        <footer>
-            <div>
-                <button id="submit">this is a button</button>
-            </div>
+        <footer class="white">
+                <button id="submit">Submit Form</button>
         </footer>
     </section>
 </body>
