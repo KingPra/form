@@ -56,7 +56,14 @@ select {
     width: 50%;
     height: 100%;
     border: 1px solid lightgrey;
-    border-radius: 4px;
+}
+
+.left {
+    border-top-left-radius: 5px;
+}
+
+.right {
+    border-top-right-radius: 5px;
 }
 
 .thirds {
@@ -97,4 +104,12 @@ footer {
 
 .white {
     background-color: white;
+}
+
+select {
+    border: none;
+}
+
+input {
+    margin-left: 10px;
 }
